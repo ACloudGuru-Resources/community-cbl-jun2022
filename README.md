@@ -6,6 +6,15 @@ In this session, David will review how to deploy an HTTP microservice from a Git
 
 Watch it Live - [Cloud Builder Live - June 2022](https://www.youtube.com/watch?v=T5smOrlZnsc)  
 
+## Prerequisites
+
+I'm trying to have as few prerequisites as possible for this one.  That being said, the following would be helpful:
+
+- VS Code ([install](https://code.visualstudio.com/))
+- ThunderClient for VS Code ([install](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client))
+- Docker ([install](https://www.docker.com/))
+- GCP Account (if you don't have one, I'll tell you how to set one up)
+
 ## Branches and Code
 
 This repository has a container for sharing COVID data via an API.  You can read more about the data below.  This is not designed to be a production application, but it is instead a microservice for use in cloud demos.  

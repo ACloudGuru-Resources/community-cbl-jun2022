@@ -11,7 +11,7 @@ const data = require('./data.json')
 
 // Default 'Hello World' route
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.json({ version: '1.00' })
 })
 
 /**
