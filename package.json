@@ -1,0 +1,19 @@
+{
+  "name": "covid-data-api-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "curl https://covid.ourworldindata.org/data/owid-covid-data.json --output data.json",
+    "start": "node index.js",
+    "docker:build": "docker build . -t covid-api",
+    "docker:run": "docker run -p 49000:8080 --name covid-api-demo -d covid-api",
+    "docker:kill": "docker kill covid-api-demo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
